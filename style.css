@@ -74,7 +74,7 @@ p{
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;
 	}
-	.card-body
+
 	.navbar-top .links a {font-size: 20px;}
 
 	.navbar-top :checked ~ .links{bottom: 0;}
@@ -100,14 +100,14 @@ p{
 
 }
 .card-body{
-	height: max-content;
+    height: 17vh; 
 }
 /*************News************/
 .news{
     padding-top: 7%;
     padding-bottom: 10%;
 }
- .cardd:hover{ -ms-transform: scale(1.5); /* IE 9 */
+ .card:hover{ -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
     transition: ease-in-out .8s all;
@@ -124,21 +124,7 @@ p{
 	border-radius: 8%;
 }
 /************Share***********/
-/************Researches******/
-.carousel-hr{
-    width: 67%;
-    position: absolute;
-    top: 21%;
-    left: 10%;
-}
-/************Researches******/
-/************Rewaq***********/
-.rewaq1{
-    background: #88888812;
-}
-.rewaq1 .text{border: 1px solid rgb(181, 179, 179);}
-.rewaq1 .image{margin-top: 9%;}
-/************Rewaq***********/
+
 /*************Footer********/
 .top-footer{
     background-color: #65cadc;
@@ -154,9 +140,15 @@ a{
 .top-footer .copy-right p{    color: #056887;
 }
 /************Footer********/
-.bn{
-	height: 70px; margin: 10px;;
+.card-img-top{
+	height: 250px;
+	width: 250px;
 }
-.mty{
-	margin:8px;
+dir{
+	direction: rtl;
 }
+.co{
+	border: 1px solid rgb(138, 126, 126);
+}
+/* %%%%%%%%%%% */
+/* %%------------------- */
